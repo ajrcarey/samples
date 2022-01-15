@@ -6,10 +6,10 @@ Some representative code samples from closed source personal projects, demonstra
 * filtered-index.tsx: A generic list filter component in Typescript/React with JSX. Allows interactive filtering and grouping irrespective of the source data format. Visible in action on the website of The London Festival of Contemporary Church Music at https://www.lfccm.com/whatson/composers/, https://www.lfccm.com/whatson/performers/, https://www.lfccm.com/whatson/works/, and https://www.lfccm.com/whatson/venues/.
 * system.rs: An excerpt from a music notation processing system. This file defines the LayoutSystem struct, the implementation block of which takes sets of grid lines and notational blocks and lays them out on a two-dimensional surface according to linear constraints. The layout of music notation is thus decomposed into a linear constraint system; resolving the constraints in the linear constraint system results in a correctly laid out system of music notation.
 
-## See also
-
-* pdfium-render, an open source high-level idiomatic Rust wrapper around Pdfium, the C++ PDF library used by the Google Chromium project: https://github.com/ajrcarey/pdfium-render
-
 ## Licensing
 
 Strictly GPL3 only. No warranty offered or implied. Purely intended as illustrative samples, not for real-world use.
+
+## See also
+
+* https://github.com/ajrcarey/pdfium-render: an open source high-level idiomatic Rust wrapper around Pdfium, the C++ PDF library used by the Google Chromium project
